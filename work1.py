@@ -17,3 +17,11 @@ for i in range(1,6):
     fact=fact*i
 print(fact)
 
+#check the first and lat letter of list are same
+a=['abc','1231','aba','323','15a']
+b=[]
+for i in a:
+  if i[0]==i[-1]:
+    b.append(i)
+print(b)
+print(len(b))
